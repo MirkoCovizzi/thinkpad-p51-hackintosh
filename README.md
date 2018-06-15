@@ -19,7 +19,7 @@ HARDWARE:
 | | 1xUSB C (Thunderbolt) | ? | Needs to be correctly tested and setup as above |
 | CAMERA | | FULL | |
 | AUDIO | ALC3268 (Speakers + Internal Mic + Headphone/Mic Combo) | FULL | AppleALC.kect + Layout #29 as per: https://www.reddit.com/r/hackintosh/comments/4e23w6/guide_native_audio_with_clover_applealckext/ |
-| KEYBOARD | | YES | |
+| KEYBOARD | | YES | Some keys need to be fixed/setup with SSDT patches |
 | ULTRANAV | Trackpoint | YES | Needs to be fixed: movement is not precise (blocky/jumpy) |
 | | Touchpad | FULL | |
 | FP READER | | YES | USB device: needs to be disabled through USBInjectAll.kext + custom SSDT since not used to preserve battery |
