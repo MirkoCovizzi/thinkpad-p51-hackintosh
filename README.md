@@ -14,7 +14,7 @@ Feature set source: http://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad%20
 | STORAGE | Samsung NVMe 256GB | FULL | |
 | ETHERNET | Intel I219-V | FULL | https://www.tonymacx86.com/threads/intel-i219-ethernet-drivers-for-skylake-100-series-motherboards-testing.180995/ |
 | WLAN | Intel AC8265 | NO | To be replaced with BCM94352Z with FULL compatibility |
-| BLUETOOTH | Intel AC8265 | Yes | Fixes needed to make it work fully. To be replaced with BCM94352Z with FULL compatibility |
+| BLUETOOTH | Intel AC8265 | YES | Fixes needed to make it work fully. To be replaced with BCM94352Z with FULL compatibility |
 | EXPRESS CARD | | NO:DISABLED | |
 | SD READER | | NO:DISABLED | |
 | PORTS | 4xUSB3.1 Gen 1 | YES | Need to be correctly setup through USBInjectAll.kext + custom SSDT |
