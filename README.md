@@ -1,6 +1,8 @@
+# Thinkpad P51 High Sierra
+
 Feature set source: http://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad%20P51/ThinkPad_P51_Platform_Specifications.pdf
 
-HARDWARE:
+## Software:
 
 | Category | Element | Compatibility | Notes |
 | ------------- | ------------- | ------------- | ------------- | 
@@ -25,7 +27,7 @@ HARDWARE:
 | FP READER | | YES | USB device: needs to be disabled through USBInjectAll.kext + custom SSDT since not used to preserve battery |
 | COLOR CALIBRATOR | | YES | USB device: needs to be disabled through USBInjectAll.kext + custom SSDT since not used to preserve battery |
 
-SOFTWARE:
+## Software:
 
 | Feature | Compatibility | Notes |
 | ------------- | ------------- | ------------- |
