@@ -2,7 +2,7 @@
 
 Feature set source: http://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad%20P51/ThinkPad_P51_Platform_Specifications.pdf
 
-## Software:
+## Hardware:
 
 | Category | Element | Compatibility | Notes |
 | ------------- | ------------- | ------------- | ------------- | 
@@ -40,6 +40,6 @@ Feature set source: http://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad%20
 | Siri | NO | Can't authenticate (probably needs payment method in account) |
 | Facetime | NO | Can't authenticate (probably needs payment method in account) |
 
-Setup:
+## Setup:
 1) MOST IMPORTANT: https://www.tonymacx86.com/threads/guide-booting-the-os-x-installer-on-laptops-with-clover.148093/
 2) TBD
