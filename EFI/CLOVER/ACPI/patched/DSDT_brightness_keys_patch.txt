@@ -1,0 +1,10 @@
+into method label _Q15 replace_content
+begin
+// Brightness Down\n
+    Notify(\_SB.PCI0.LPCB.KBD, 0x0405)\n
+end;
+into method label _Q14 replace_content
+begin
+// Brightness Up\n
+    Notify(\_SB.PCI0.LPCB.KBD, 0x0406)\n
+end;
