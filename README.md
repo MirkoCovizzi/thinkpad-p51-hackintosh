@@ -37,3 +37,7 @@ SOFTWARE:
 | iMessage | NO | Can't authenticate (probably needs payment method in account) |
 | Siri | NO | Can't authenticate (probably needs payment method in account) |
 | Facetime | NO | Can't authenticate (probably needs payment method in account) |
+
+Setup:
+1) MOST IMPORTANT: https://www.tonymacx86.com/threads/guide-booting-the-os-x-installer-on-laptops-with-clover.148093/
+2) TBD
