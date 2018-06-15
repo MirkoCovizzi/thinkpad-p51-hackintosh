@@ -18,7 +18,7 @@ Feature set source: http://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad%20
 | EXPRESS CARD | | NO:DISABLED | |
 | SD READER | | NO:DISABLED | |
 | PORTS | 4xUSB3.1 Gen 1 | YES | Need to be correctly setup through USBInjectAll.kext + custom SSDT |
-| | 1xUSB C (Thunderbolt) | ? | Needs to be correctly tested and setup as above |
+| | 1xUSB C (Thunderbolt) | ? | Needs to be correctly tested and setup as above. Thunderbolt will probably never work, but USB C yes, objective is to make it a substitute for HDMI/Mini Displayport/VGA. Example of this: https://www.tonymacx86.com/threads/xps-9360-usb-c-to-hdmi-audio-still-not-working.216140/|
 | | HDMI 1.4b | NO | Since Nvidia is disabled, this port connected to it can't work |
 | | Mini Displayport 1.2a | NO | Since Nvidia is disabled, this port connected to it can't work |
 | CAMERA | | FULL | |
