@@ -32,6 +32,8 @@ SOFTWARE:
 | Sleep + Wake | NO | Needs to be fixed |
 | Battery Status | FULL | https://www.tonymacx86.com/threads/guide-how-to-patch-dsdt-for-working-battery-status.116102/ |
 | Brightness Control | FULL | https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightinjector-kext.218222/ |
-| iMessage | NO | |
-| Siri | NO | |
-| Facetime | NO | |
+| App Store | FULL | |
+| iTunes | FULL | |
+| iMessage | NO | Can't authenticate (probably needs payment method in account) |
+| Siri | NO | Can't authenticate (probably needs payment method in account) |
+| Facetime | NO | Can't authenticate (probably needs payment method in account) |
