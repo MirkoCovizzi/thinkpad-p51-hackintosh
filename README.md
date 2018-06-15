@@ -16,7 +16,7 @@ HARDWARE:
 | EXPRESS CARD | | NO:DISABLED | |
 | SD READER | | NO:DISABLED | |
 | PORTS | 4xUSB3.1 Gen 1 | YES | Need to be correctly setup through USBInjectAll.kext + custom SSDT |
-| | 1xUSB C (Thunderbolt) | ? | |
+| | 1xUSB C (Thunderbolt) | ? | Needs to be correctly tested and setup as above |
 | CAMERA | | FULL | |
 | AUDIO | ALC3268 (Speakers + Internal Mic + Headphone/Mic Combo) | FULL | AppleALC.kect + Layout #29 as per: https://www.reddit.com/r/hackintosh/comments/4e23w6/guide_native_audio_with_clover_applealckext/ |
 | KEYBOARD | | YES | |
