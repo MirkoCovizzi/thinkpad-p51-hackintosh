@@ -42,6 +42,20 @@ Feature set source: http://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad%20
 | Siri | NO | Can't authenticate (probably needs payment method in account) EASY FIX but low priority |
 | Facetime | NO | Can't authenticate (probably needs payment method in account) EASY FIX but low priority |
 
-## Setup:
+## Guide:
 1) MOST IMPORTANT: https://www.tonymacx86.com/threads/guide-booting-the-os-x-installer-on-laptops-with-clover.148093/
-2) TBD
+2) Rest of the guide is under construction. Also waiting to reach complete compatibility.
+
+## Benchmarks & Optimizations:
+
+I've run some benchmarks and the results are slightly better than on Windows, since OSX has less rogue processes eating CPU computational power:
+### CPU:
+- Cinebench: 730
+- ...
+
+### Battery:
+Following the Notebookcheck battery test (example: https://www.notebookcheck.net/Apple-MacBook-Pro-15-2017-2-8-GHz-555-Laptop-Review.230096.0.html) my P51 got 9 hours of usage on the Big Buck Bunny h.264 1080p test at 150 nits (50% of the P51 4K brightness). This score is slightly better than the Macbook Pro 15 2017 since the P51 has a bigger battery, but also has a display with 50% more pixels, so the advantage over the Macbook Pro is pretty much canceled.
+
+### Optimizations:
+With the use of VoltageShift (https://github.com/sicreative/VoltageShift) I was able to undervolt the i7-7700HQ and lower max temperatures by 10°C and package power by about 10W. Since the temperature is overall lower, the fans spin less and there is less noise. Another thing I'm searching for is Thinkpad specific fan control, but this would probably require porting Windows or GNU/Linux existing code (Tpfancontrol for example).
+
