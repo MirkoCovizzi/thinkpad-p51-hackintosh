@@ -19,8 +19,8 @@ Feature set source: http://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad%20
 | SD READER | | NO | Possible driver? https://www.insanelymac.com/forum/topic/321080-sineteks-driver-for-realtek-rtsx-sdhc-card-readers/ |
 | PORTS | 4xUSB3.1 Gen 1 | YES | Need to be correctly setup through USBInjectAll.kext + custom SSDT |
 | | 1xUSB C (Thunderbolt) | ? | Needs to be correctly tested and setup as above. Thunderbolt will probably never work, but USB C yes, objective is to make it a substitute for HDMI/Mini Displayport/VGA through Macbook cable adapters. Example of this: https://www.tonymacx86.com/threads/xps-9360-usb-c-to-hdmi-audio-still-not-working.216140/|
-| | HDMI 1.4b | NO | Since Nvidia is disabled, this port connected to it can't work |
-| | Mini Displayport 1.2a | NO | Since Nvidia is disabled, this port connected to it can't work |
+| | HDMI 1.4b | NO:DISABLED | Since Nvidia is disabled, this port connected to it can't work |
+| | Mini Displayport 1.2a | NO:DISABLED | Since Nvidia is disabled, this port connected to it can't work |
 | CAMERA | | FULL | |
 | AUDIO | ALC3268 (Speakers + Internal Mic + Headphone/Mic Combo) | FULL | AppleALC.kect + Layout #29 as per: https://www.reddit.com/r/hackintosh/comments/4e23w6/guide_native_audio_with_clover_applealckext/ |
 | KEYBOARD | | YES | Some keys need to be fixed/setup with SSDT patches |
