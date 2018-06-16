@@ -18,7 +18,7 @@ Feature set source: http://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad%20
 | EXPRESS CARD | | NO:DISABLED | |
 | SD READER | | NO | Possible driver? https://www.insanelymac.com/forum/topic/321080-sineteks-driver-for-realtek-rtsx-sdhc-card-readers/ |
 | PORTS | 4xUSB3.1 Gen 1 | YES | Need to be correctly setup through USBInjectAll.kext + custom SSDT |
-| | 1xUSB C (Thunderbolt) | ? | Needs to be correctly tested and setup as above. Thunderbolt will probably never work, but USB C yes, objective is to make it a substitute for HDMI/Mini Displayport/VGA through Macbook cable adapters. Example of this: https://www.tonymacx86.com/threads/xps-9360-usb-c-to-hdmi-audio-still-not-working.216140/|
+| | 1xUSB C (Thunderbolt) | ? | Needs to be correctly tested and setup as above. Thunderbolt will probably never work (but I have hope: https://www.tonymacx86.com/threads/guide-dell-xps-15-9560-4k-touch-1tb-ssd-32gb-ram-100-adobergb.224486/), but USB C yes, objective is to make it a substitute for HDMI/Mini Displayport/VGA through Macbook cable adapters. Example of this: https://www.tonymacx86.com/threads/xps-9360-usb-c-to-hdmi-audio-still-not-working.216140/|
 | | HDMI 1.4b | NO:DISABLED | Since Nvidia is disabled, this port connected to it can't work |
 | | Mini Displayport 1.2a | NO:DISABLED | Since Nvidia is disabled, this port connected to it can't work |
 | CAMERA | | FULL | |
