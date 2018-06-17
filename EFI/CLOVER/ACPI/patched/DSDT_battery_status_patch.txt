@@ -1,3 +1,5 @@
+# created by MirkoCovizzi
+
 into device label EC code_regex HWAC,\s+16 replace_matched begin WAC0,8,WAC1,8 end;
 into device label EC code_regex HWAK,\s+16 replace_matched begin WAK0,8,WAK1,8 end;
 into device label EC code_regex HSPD,\s+16 replace_matched begin SPD0,8,SPD1,8 end;
