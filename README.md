@@ -51,7 +51,7 @@ Feature set source: http://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad%20
 I've run some benchmarks and the results are slightly better than on Windows, since OSX has less rogue processes eating CPU computational power:
 ### CPU:
 - Cinebench: 730
-- Geekbench 4: SC: 4611, MC: 13317 (I have single channel ram which means lower memory bandwidth and lower multicore score) https://browser.geekbench.com/v4/cpu/8700946
+- Geekbench 4: SC: 4611, MC: 13317 (I have single channel ram which means lower memory bandwidth and lower multicore score in this particular benchmark) https://browser.geekbench.com/v4/cpu/8700946
 
 ### Battery:
 Following the Notebookcheck battery test (example: https://www.notebookcheck.net/Apple-MacBook-Pro-15-2017-2-8-GHz-555-Laptop-Review.230096.0.html) my P51 got 9 hours of usage on the Big Buck Bunny h.264 1080p test at 150 nits (50% of the P51 4K brightness) in airplane mode (basically wifi disabled, for now). This score is slightly better than the Macbook Pro 15 2017 since the P51 has a bigger battery, but also has a display with 50% more pixels, so the advantage over the Macbook Pro is pretty much canceled. Battery should improve significantly once USB injection is correctly adapted to our system. Until now USB ports work, but not optimally. Some components, like the X-Rite calibrator, the FP scanner, the SD card reader, the Express Card slot are always on and consume power, so they will be disabled. Objective is to increase battery time of the test above from 9+ hours to about 10+ hours if possible.
