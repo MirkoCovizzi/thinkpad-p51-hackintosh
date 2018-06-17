@@ -15,7 +15,7 @@ Feature set source: http://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad%20
 | ETHERNET | Intel I219-V | FULL | https://www.tonymacx86.com/threads/intel-i219-ethernet-drivers-for-skylake-100-series-motherboards-testing.180995/ |
 | WLAN | Intel AC8265 | NO | To be replaced with BCM94352Z with FULL compatibility |
 | BLUETOOTH | Intel AC8265 | YES | Fixes needed to make it work fully. To be replaced with BCM94352Z with FULL compatibility |
-| EXPRESS CARD | | NO:DISABLED | |
+| EXPRESS CARD | | NO | Needs to be disabled for power consumption reasons through ACPI SSDT patches |
 | SD READER | Realtek RTS525A | YES | Driver in the works https://www.insanelymac.com/forum/topic/321080-sineteks-driver-for-realtek-rtsx-sdhc-card-readers/, until the driver is 100% complete and bugfree this component will be disabled for power consumption reasons |
 | PORTS | 4xUSB3.1 Gen 1 | YES | Need to be correctly setup through USBInjectAll.kext + custom SSDT |
 | | 1xUSB C (Thunderbolt) | ? | Needs to be correctly tested and setup as above. Thunderbolt will probably never work (but I have hope: https://www.tonymacx86.com/threads/guide-dell-xps-15-9560-4k-touch-1tb-ssd-32gb-ram-100-adobergb.224486/), but USB C yes, objective is to make it a substitute for HDMI/Mini Displayport/VGA through Macbook cable adapters. Example of this: https://www.tonymacx86.com/threads/xps-9360-usb-c-to-hdmi-audio-still-not-working.216140/|
