@@ -2,6 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>BootGraphics</key>
+	<dict>
+		<key>UIScale</key>
+		<integer>2</integer>
+		<key>EFILoginHiDPI</key>
+		<integer>1</integer>
+	</dict>
 	<key>Comment</key>
 	<string>This file is for 10.12.6+ with native KabyLake support</string>
 	<key>ACPI</key>
@@ -179,16 +186,18 @@
 	</dict>
 	<key>Boot</key>
 	<dict>
+		<key>Debug</key>
+		<false/>
 		<key>Arguments</key>
 		<string>kext-dev-mode=1 dart=0 nv_disable=1 -disablegfxfirmware</string>
-		<key>#DefaultVolume</key>
+		<key>DefaultVolume</key>
 		<string>macOS</string>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>0</integer>
+		<integer>5</integer>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -351,6 +360,14 @@
 			<key>Entries</key>
 			<array>
 				<dict>
+					<key>BootBgColor</key>
+					<string>000000FF</string>
+					<key>CustomLogo</key>
+					<string>\EFI\CLOVER\themes\logo.png</string>
+					<key>Type</key>
+					<string>OSX</string>
+				</dict>
+				<dict>
 					<key>Hidden</key>
 					<false/>
 					<key>Type</key>
@@ -384,8 +401,8 @@
 			<key>Tool</key>
 			<true/>
 		</dict>
-		<key>#ScreenResolution</key>
-		<string>1920x1080</string>
+		<key>ScreenResolution</key>
+		<string>3840x2160</string>
 		<key>Theme</key>
 		<string>BGM</string>
 	</dict>
