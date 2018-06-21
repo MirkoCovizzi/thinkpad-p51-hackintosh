@@ -1,3 +1,5 @@
+# created by MirkoCovizzi
+
 into device label SMCD remove_entry;
 into definitionblock code_regex . insert
 begin
@@ -26,7 +28,7 @@ Device (SMCD)\n
     Method (FCPU, 0, Serialized)\n
     {\n
 	Store (0x00, \_SB.PCI0.LPCB.EC.HFSP)\n
-        Return (1)
+        Return (1)\n
     }\n
 }\n
 end;
