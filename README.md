@@ -13,8 +13,8 @@ Feature set source: http://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad%20
 | DISPLAY | 4K | FULL | |
 | STORAGE | Samsung NVMe 256GB | FULL | |
 | ETHERNET | Intel I219-V | FULL | https://www.tonymacx86.com/threads/intel-i219-ethernet-drivers-for-skylake-100-series-motherboards-testing.180995/ |
-| WLAN | Intel AC8265 | NO | To be replaced with BCM94352Z with FULL compatibility |
-| BLUETOOTH | Intel AC8265 | YES | Fixes needed to make it work fully. To be replaced with BCM94352Z with FULL compatibility |
+| WLAN | BCM94352Z | FULL | |
+| BLUETOOTH | BCM94352Z | FULL | |
 | EXPRESS CARD | | NO | Needs to be disabled for power consumption reasons through ACPI SSDT patches |
 | SD READER | Realtek RTS525A | YES | Driver in the works https://www.insanelymac.com/forum/topic/321080-sineteks-driver-for-realtek-rtsx-sdhc-card-readers/, until the driver is 100% complete and bugfree this component will be disabled for power consumption reasons |
 | PORTS | 4xUSB3.1 Gen 1 (3.0) | YES | Need to be correctly setup through USBInjectAll.kext + custom SSDT |
