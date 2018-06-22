@@ -6,7 +6,6 @@ DefinitionBlock("SSDT_OVERRIDES", "SSDT", 2, "Mirko", "ThinkOpt", 0){
     External (\_SB.PCI0.LPCB.EC.SPD1, IntObj)
     External (\_SB.PCI0.LPCB.EC.TMP0, IntObj)
     External (\_SB.PCI0.LPCB.EC.HFSP, IntObj)
-    
 
     Method (CFSP, 1, Serialized)
     {
