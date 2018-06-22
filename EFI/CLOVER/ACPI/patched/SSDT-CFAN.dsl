@@ -9,7 +9,7 @@ DefinitionBlock("SSDT_OVERRIDES", "SSDT", 2, "Mirko", "ThinkOpt", 0){
     External (\_SB.PCI0.LPCB.EC.RECB, MethodObj)
     External (\_SB.PCI0.LPCB.EC.WECB, MethodObj)
     
-    Method (SWFN, 1, NotSerialized)
+    Method (SWFN, 1, Serialized)
     {
         Store (\_SB.PCI0.LPCB.EC.RECB (0x31, 8), Local0)
         If (LEqual (Arg0, 0x00))
@@ -23,7 +23,7 @@ DefinitionBlock("SSDT_OVERRIDES", "SSDT", 2, "Mirko", "ThinkOpt", 0){
         Return (1)
     }
 
-    Method (CFSP, 1, NotSerialized)
+    Method (CFSP, 1, Serialized)
     {
         SWFN (0x00)
         Store (Arg0, \_SB.PCI0.LPCB.EC.HFSP)
@@ -72,7 +72,7 @@ DefinitionBlock("SSDT_OVERRIDES", "SSDT", 2, "Mirko", "ThinkOpt", 0){
             Return (Local0)
         }
         
-        Method (FCPU, 0, NotSerialized)
+        Method (FCPU, 0, Serialized)
         {
             Store (\_SB.PCI0.LPCB.EC.TMP0, Local0)
             Store (0, Local1)
