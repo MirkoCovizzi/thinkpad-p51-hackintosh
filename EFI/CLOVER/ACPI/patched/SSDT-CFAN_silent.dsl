@@ -38,14 +38,6 @@ DefinitionBlock("SSDT_OVERRIDES", "SSDT", 2, "Mirko", "ThinkOpt", 0){
         Return (1)    
     }
 
-    Name (FTAB, Buffer()
-    {
-        65, 0,
-        70, 1,
-        75, 3,
-        80, 7,
-    })
-
     Device (SMCD)
     {
         Name (_HID, "FAN00000")
@@ -74,42 +66,7 @@ DefinitionBlock("SSDT_OVERRIDES", "SSDT", 2, "Mirko", "ThinkOpt", 0){
         
         Method (FCPU, 0, NotSerialized)
         {
-            Store (\_SB.PCI0.LPCB.EC.TMP0, Local0)
-            Store (0, Local1)
-            While (LLess (Local1, SizeOf (FTAB)))
-            {
-                If (LEqual (Local1, 0))
-                {
-                    If (LLessEqual (Local0, DerefOf (Index (FTAB, 0)))){
-                        Store (Local1, Local2)
-                        Increment (Local2)
-                        CFSP (DerefOf (Index (FTAB, Local2)))
-                        Return (1)
-                    }
-                }
-
-                Subtract (SizeOf (FTAB), 2, Local2) 
-                If (LEqual (Local1, Local2))
-                {
-                    If (LGreaterEqual (Local0, DerefOf (Index (FTAB, Local2))))
-                    {
-                        Increment (Local2)
-                        CFSP (DerefOf (Index (FTAB, Local2)))
-                        Return (1)
-                    }
-                }
-
-                Store (Local1, Local2)
-                Add (Local2, 2, Local2)
-                If (And (LGreaterEqual (Local0, DerefOf (Index (FTAB, Local1))), LLessEqual (Local0, DerefOf (Index (FTAB, Local2)))))
-                {
-                    Decrement (Local2)
-                    CFSP (DerefOf (Index (FTAB, Local2)))
-                    Return (1)
-                }
-
-                Add (Local1, 2, Local1)
-            }
+            CFSP (0x00)
             
             Return (1)
         }
