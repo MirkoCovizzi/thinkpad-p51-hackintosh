@@ -59,5 +59,5 @@ Also, battery charging threshold seems to work, but I need further testing to co
 
 ### Optimizations:
 With the use of VoltageShift (https://github.com/sicreative/VoltageShift) I was able to undervolt the i7-7700HQ and lower max temperatures by 10°C and package power by about 10W. Since the temperature is overall lower, the fans spin less and there is less noise. Another tool similar to VoltageShift is Volta (http://volta.garymathews.com/) but it's a paid program.
-Another optimization which currently works is complete fan control. In its current state the fans are just disabled (speed 0RPM), but a more evolved configuration can be made on the foundations that I already developed.
+Another optimization, which currently works, is complete fan control.
 
