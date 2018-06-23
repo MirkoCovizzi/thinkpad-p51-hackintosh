@@ -38,9 +38,9 @@ Feature set source: http://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad%20
 | Brightness Control | FULL | https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightinjector-kext.218222/ |
 | App Store | FULL | |
 | iTunes | FULL | |
-| iMessage | NO | Can't authenticate (probably needs payment method in account) EASY FIX but low priority |
-| Siri | NO | Can't authenticate (probably needs payment method in account) EASY FIX but low priority |
-| Facetime | NO | Can't authenticate (probably needs payment method in account) EASY FIX but low priority |
+| iMessage | YES | Can't authenticate (probably needs payment method in account) EASY FIX but low priority. Requires new serial number. |
+| Siri | YES | Can't authenticate (probably needs payment method in account) EASY FIX but low priority. Requires new serial number. |
+| Facetime | YES | Can't authenticate (probably needs payment method in account) EASY FIX but low priority. Requires new serial number. |
 
 ## Guide:
 1) MOST IMPORTANT: https://www.tonymacx86.com/threads/guide-booting-the-os-x-installer-on-laptops-with-clover.148093/
