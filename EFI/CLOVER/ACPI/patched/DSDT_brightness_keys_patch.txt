@@ -1,4 +1,4 @@
-# created by MirkoCovizzi
+# Copyright: MirkoCovizzi
 
 into method label _Q15 replace_content
 begin
