@@ -17,7 +17,7 @@ Feature set source: http://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad%20
 | BLUETOOTH | BCM94352Z | FULL | |
 | EXPRESS CARD | | NO | Needs to be disabled for power consumption reasons through ACPI SSDT patches |
 | SD READER | Realtek RTS525A | NO | Driver in the works https://www.insanelymac.com/forum/topic/321080-sineteks-driver-for-realtek-rtsx-sdhc-card-readers/, until the driver is 100% complete and bugfree this component will be disabled for power consumption reasons |
-| PORTS | 4xUSB3.1 Gen 1 (3.0) | YES | Need to be correctly setup through USBInjectAll.kext + custom SSDT |
+| PORTS | 4xUSB3.1 Gen 1 (3.0) | FULL | Correctly setup through USBInjectAll.kext + custom SSDT |
 | | 1xUSB C (Thunderbolt) | YES | Needs to be correctly tested and setup as above. Thunderbolt could work but I don't have a device to test (https://www.tonymacx86.com/threads/guide-dell-xps-15-9560-4k-touch-1tb-ssd-32gb-ram-100-adobergb.224486/). USB type C should work as expected and objective is to make it a substitute for HDMI/Mini Displayport/VGA through adapters. I tested with one USB C to HDMI/VGA adapter, but Alternate Mode (necessary for HDMI/VGA) didn't start and IORegistryExplorer would show Billboard Mode instead https://www.silabs.com/community/mcu/8-bit/knowledge-base.entry.html/2016/09/26/what_s_the_role_ofb-FaDC; however, this means USB C is correctly recognized (and System Properties confirms this too), but I have to find a good adapter to confirm external monitors can work. |
 | | HDMI 1.4b | NO:DISABLED | Since Nvidia is disabled, this port connected to it can't work |
 | | Mini Displayport 1.2a | NO:DISABLED | Since Nvidia is disabled, this port connected to it can't work |
@@ -26,8 +26,8 @@ Feature set source: http://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad%20
 | KEYBOARD | Non backlit keyboard | YES | Some keys need to be fixed/setup with SSDT patches, especially leds |
 | ULTRANAV | Trackpoint | YES | Needs to be fixed: movement is not smooth (it's blocky/jumpy). Also, center trackpoint button should be fixed since it's imprecise. |
 | | Touchpad | YES | See if it is possible to add more gestures |
-| FP READER | | YES | USB device: needs to be disabled through USBInjectAll.kext + custom SSDT since not used to preserve battery |
-| COLOR CALIBRATOR | | YES | USB device: needs to be disabled through USBInjectAll.kext + custom SSDT since not used to preserve battery |
+| FP READER | | DISABLED | Disabled through USBInjectAll.kext + custom SSDT since not used, to preserve battery |
+| COLOR CALIBRATOR | | DISABLED | Disabled through USBInjectAll.kext + custom SSDT since not used, to preserve battery |
 
 ## Software:
 
