@@ -51,12 +51,12 @@ DefinitionBlock ("", "SSDT", 2, "hack", "UIAC-ALL", 0)
                     },
                     "HS08", Package() // Camera
                     {
-                        "UsbConnector", 3,
+                        "UsbConnector", 255,
                         "port", Buffer() { 8, 0, 0, 0 },
                     },
                     "HS14", Package() // Wifi/Bluetooth
                     {
-                        "UsbConnector", 3,
+                        "UsbConnector", 255,
                         "port", Buffer() { 14, 0, 0, 0 },
                     },
                     "SS01", Package()
