@@ -1,4 +1,4 @@
-// created by MirkoCovizzi
+// Copyright: MirkoCovizzi
 
 DefinitionBlock("SSDT_OVERRIDES", "SSDT", 2, "Mirko", "ThinkOpt", 0){
     External (B1B2, MethodObj)
