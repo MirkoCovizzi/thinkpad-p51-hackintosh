@@ -26,8 +26,8 @@ Feature set source: http://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad%20
 | KEYBOARD | Non backlit keyboard | YES | Some keys need to be fixed/setup with SSDT patches, especially leds |
 | ULTRANAV | Trackpoint | YES | Needs to be fixed: movement is not smooth (it's blocky/jumpy). Also, center trackpoint button should be fixed since it's imprecise. |
 | | Touchpad | YES | See if it is possible to add more gestures |
-| FP READER | | DISABLED | Disabled through USBInjectAll.kext + custom SSDT since not used, to preserve battery |
-| COLOR CALIBRATOR | | DISABLED | Disabled through USBInjectAll.kext + custom SSDT since not used, to preserve battery |
+| FP READER | | NO:DISABLED | Disabled through USBInjectAll.kext + custom SSDT since not used, to preserve battery |
+| COLOR CALIBRATOR | | NO:DISABLED | Disabled through USBInjectAll.kext + custom SSDT since not used, to preserve battery |
 
 ## Software:
 
