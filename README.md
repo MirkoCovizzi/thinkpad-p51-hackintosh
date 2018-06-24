@@ -33,7 +33,7 @@ Feature set source: http://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad%20
 
 | Feature | Compatibility | Notes |
 | ------------- | ------------- | ------------- |
-| Sleep + Wake | YES | Need to fix blinking power LED after wake |
+| Sleep + Wake | YES | Need to fix blinking power LED after wake, bug in ACPIsensors reporting two batteries and bluetooth not working after wake |
 | Battery Status | FULL | https://www.tonymacx86.com/threads/guide-how-to-patch-dsdt-for-working-battery-status.116102/ |
 | Brightness Control | FULL | https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightinjector-kext.218222/ |
 | App Store | FULL | |
