@@ -1,6 +1,6 @@
 into method label _WAK code_regex (Return[\s\S]*) replace_matched
 begin
-        External (\\_SI.SST, MethodObj)\n
-        \\_SI.SST (0x01)\n\n
+        External (\\_SI._SST, MethodObj)\n
+        \\_SI._SST (0x01)\n\n
         %1\n
 end;
