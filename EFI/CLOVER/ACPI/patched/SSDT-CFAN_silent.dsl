@@ -38,6 +38,10 @@ DefinitionBlock("SSDT_OVERRIDES", "SSDT", 2, "Mirko", "ThinkOpt", 0){
         Return (1)    
     }
 
+    Name (CTMN, 85)
+    Name (CTMX, 90)
+    Name (CBAT, 0)
+
     Device (SMCD)
     {
         Name (_HID, "FAN00000")
@@ -68,6 +72,13 @@ DefinitionBlock("SSDT_OVERRIDES", "SSDT", 2, "Mirko", "ThinkOpt", 0){
         {
             CFSP (0x00)
             
+            ShiftLeft (CBAT, 8, Local0)
+            Or (Local0, CTMN, Local1)
+            Or (Local0, CTMX, Local2)
+
+            \_SB.PCI0.LPCB.EC.HKEY.BCCS (Local1)
+            \_SB.PCI0.LPCB.EC.HKEY.BCSS (Local2)
+
             Return (1)
         }
     }

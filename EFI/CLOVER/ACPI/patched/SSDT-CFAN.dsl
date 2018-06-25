@@ -8,6 +8,8 @@ DefinitionBlock("SSDT_OVERRIDES", "SSDT", 2, "Mirko", "ThinkOpt", 0){
     External (\_SB.PCI0.LPCB.EC.HFSP, IntObj)
     External (\_SB.PCI0.LPCB.EC.RECB, MethodObj)
     External (\_SB.PCI0.LPCB.EC.WECB, MethodObj)
+    External (\_SB.PCI0.LPCB.EC.HKEY.BCCS, MethodObj)
+    External (\_SB.PCI0.LPCB.EC.HKEY.BCSS, MethodObj)
     
     Method (SWFN, 1, Serialized)
     {
@@ -45,6 +47,10 @@ DefinitionBlock("SSDT_OVERRIDES", "SSDT", 2, "Mirko", "ThinkOpt", 0){
         75, 3,
         80, 7,
     })
+
+    Name (CTMN, 85)
+    Name (CTMX, 90)
+    Name (CBAT, 0)
 
     Device (SMCD)
     {
@@ -110,6 +116,13 @@ DefinitionBlock("SSDT_OVERRIDES", "SSDT", 2, "Mirko", "ThinkOpt", 0){
 
                 Add (Local1, 2, Local1)
             }
+
+            ShiftLeft (CBAT, 8, Local0)
+            Or (Local0, CTMN, Local1)
+            Or (Local0, CTMX, Local2)
+
+            \_SB.PCI0.LPCB.EC.HKEY.BCCS (Local1)
+            \_SB.PCI0.LPCB.EC.HKEY.BCSS (Local2)
             
             Return (1)
         }
