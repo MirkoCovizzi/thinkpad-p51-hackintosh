@@ -55,9 +55,10 @@ I've run some benchmarks and the results are slightly better than on Windows, si
 
 ### Battery:
 Following the Notebookcheck battery test (example: https://www.notebookcheck.net/Apple-MacBook-Pro-15-2017-2-8-GHz-555-Laptop-Review.230096.0.html) my P51 got 9 hours of usage on the Big Buck Bunny h.264 1080p test at 150 nits (50% of the P51 4K brightness) in airplane mode. This score is slightly better than the Macbook Pro 15 2017 since the P51 has a bigger battery, but also has a display with 50% more pixels, so the advantage over the Macbook Pro is pretty much canceled. Battery should improve significantly once USB injection is correctly adapted to our system. Until now USB ports work, but not optimally. Some components, like the X-Rite calibrator, the FP scanner, the SD card reader, the Express Card slot are always on and consume power, so they will be disabled. Objective is to increase battery time of the test above from 9+ hours to about 10+ hours if possible.
-Also, battery charging threshold seems to work, but I need further testing to confirm it. It would be nice to port from GNU/Linux some tool to effectively control battery charging threshold.
+Custom battery thresholds work through SSDT patching!
 
 ### Optimizations:
 With the use of VoltageShift (https://github.com/sicreative/VoltageShift) I was able to undervolt the i7-7700HQ and lower max temperatures by 10°C and package power by about 10W. Since the temperature is overall lower, the fans spin less and there is less noise. Another tool similar to VoltageShift is Volta (http://volta.garymathews.com/) but it's a paid program.
 Another optimization, which currently works, is complete fan control.
+Finally, it is also possible to set custom battery thresholds!
 
