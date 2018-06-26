@@ -14,7 +14,7 @@ Feature set source: http://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad%20
 | STORAGE | Samsung NVMe 256GB | FULL | |
 | ETHERNET | Intel I219-V | FULL | https://www.tonymacx86.com/threads/intel-i219-ethernet-drivers-for-skylake-100-series-motherboards-testing.180995/ |
 | WLAN | BCM94352Z | FULL | |
-| BLUETOOTH | BCM94352Z | FULL | |
+| BLUETOOTH | BCM94352Z | FULL | Small issue with Bluetooth after wake (needs more investigation) |
 | EXPRESS CARD | | NO | Needs to be disabled for power consumption reasons through ACPI SSDT patches |
 | SD READER | Realtek RTS525A | NO | Driver in the works https://www.insanelymac.com/forum/topic/321080-sineteks-driver-for-realtek-rtsx-sdhc-card-readers/, until the driver is 100% complete and bugfree this component will be disabled for power consumption reasons |
 | PORTS | 4xUSB3.1 Gen 1 (3.0) | FULL | Correctly setup through USBInjectAll.kext + custom SSDT + power injection |
@@ -34,7 +34,7 @@ Feature set source: http://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad%20
 | Feature | Compatibility | Notes |
 | ------------- | ------------- | ------------- |
 | Sleep + Wake | YES | Bluetooth not working after wake |
-| Battery Status | FULL | https://www.tonymacx86.com/threads/guide-how-to-patch-dsdt-for-working-battery-status.116102/ |
+| Battery Status | FULL | https://www.tonymacx86.com/threads/guide-how-to-patch-dsdt-for-working-battery-status.116102/ (battery charge remaining reported correctly, but system percentage is wrong; need to see if it's possible to solve, maybe it needs a simple calibration)|
 | Brightness Control | FULL | https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightinjector-kext.218222/ |
 | App Store | FULL | |
 | iTunes | FULL | |
