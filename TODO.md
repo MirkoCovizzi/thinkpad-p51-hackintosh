@@ -1,6 +1,6 @@
 Once everything in this list is solved, the P51 hackintosh would be pretty much complete with everything working except discrete GPU (HDMI & DP), Express Card and SD Reader (for now, until the driver is finished).
 
-- Fix coreaudio? At 128smp, for example, FL Studio 20 Newstuff.flp lags a lot, with a lot of cpu usage.
+- Fix coreaudio? At 128smp, for example, FL Studio 20 Newstuff.flp lags a lot, with a lot of cpu usage
 - Fix bluetooth & Wifi Broadcom (see sleep issue with bluetooth)
 - Fix keyboard keys and toggle leds with mute/unmute/volume actions:
   - Volume toggle left: e020=4a down, _Q43: toggle works and LED works, but muting sound from settings don't change LED status
