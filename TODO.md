@@ -1,0 +1,9 @@
+- Fix bluetooth & Wifi Broadcom (see sleep issue with bluetooth)
+- Fix keyboard keys and toggle leds with mute/unmute/volume actions
+- Setup USB C hotplug
+- Wrong battery percentage reported by both HWMonitor and system battery
+- Tune trackpoint
+- Tune touchpad + setup gestures (if possible)
+- Setup iMessage & Co
+- Disable Express Card?
+- Disable SD Reader?
