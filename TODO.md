@@ -1,3 +1,5 @@
+Once everything in this list is solved, the P51 hackintosh would be pretty much complete with everything working except discrete GPU (HDMI & DP), Express Card and SD Reader (for now, until the driver is finished).
+
 - Fix bluetooth & Wifi Broadcom (see sleep issue with bluetooth)
 - Fix keyboard keys and toggle leds with mute/unmute/volume actions:
   - Volume toggle left: e020=4a down, _Q43: toggle works and LED works, but muting sound from settings don't change LED status
@@ -20,5 +22,3 @@
 - Setup iMessage & Co
 - Disable Express Card? (for power consumption reasons, but maybe it's already disabled at boot)
 - Disable SD Reader? (for power consumption reasons, but maybe it's already disabled at boot)
-
-Once everything in this list is solved, the P51 hackintosh would be pretty much complete with everything working except GPU (HDMI & DP), Express Card and SD Reader (for now, until the driver is finished).
