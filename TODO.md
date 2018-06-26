@@ -1,9 +1,9 @@
 - Fix bluetooth & Wifi Broadcom (see sleep issue with bluetooth)
 - Fix keyboard keys and toggle leds with mute/unmute/volume actions:
-  - Volume toggle left: e020=4a down, _Q43
+  - Volume toggle left: e020=4a down, _Q43: toggle works and LED works, but muting sound from settings don't change LED status
   - Volume down left: e02e=49 down, not recognized
   - Volume up left: e030=48 down, not recognized
-  - Numlock: 45=47 down, not recognized
+  - Numlock: 45=47 down, not recognized: doesn't work as supposed and LED doesn't toggle
   - Mic toggle: _Q6A
   - Brightness up: _Q14
   - Brightness down: _Q15
