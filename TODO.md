@@ -20,3 +20,5 @@
 - Setup iMessage & Co
 - Disable Express Card? (for power consumption reasons, but maybe it's already disabled at boot)
 - Disable SD Reader? (for power consumption reasons, but maybe it's already disabled at boot)
+
+Once everything in this list is solved, the P51 hackintosh would be pretty much complete with everything working except GPU (HDMI & DP), Express Card and SD Reader (for now, until the driver is finished).
