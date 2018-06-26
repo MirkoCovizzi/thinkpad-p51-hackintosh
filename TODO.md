@@ -15,7 +15,7 @@
   - Favorite: _Q62
 - Setup USB C hotplug
 - Wrong battery percentage reported by both HWMonitor and system battery (it seems HWMonitor is considering the battery design capacity instead of the battery max capacity)
-- Tune trackpoint
+- Tune trackpoint: smoother precision and calibrate center button for scrolling
 - Tune touchpad + setup gestures (if possible)
 - Setup iMessage & Co
 - Disable Express Card? (for power consumption reasons, but maybe it's already disabled at boot)
