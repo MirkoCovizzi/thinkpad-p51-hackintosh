@@ -1,18 +1,18 @@
 - Fix bluetooth & Wifi Broadcom (see sleep issue with bluetooth)
 - Fix keyboard keys and toggle leds with mute/unmute/volume actions:
--- Volume toggle left: e020=4a down, _Q43
--- Volume down left: e02e=49 down, not recognized
--- Volume up left: e030=48 down, not recognized
--- Numlock: 45=47 down, not recognized
--- Mic toggle: _Q6A
--- Brightness up: _Q14
--- Brightness down: _Q15
--- Mirror screen: _Q16
--- Toggle wifi: _Q64
--- Settings: _Q66
--- Toggle bluetooth: _Q60
--- Keyboard: _Q61
--- Favorite: _Q62
+  - Volume toggle left: e020=4a down, _Q43
+  - Volume down left: e02e=49 down, not recognized
+  - Volume up left: e030=48 down, not recognized
+  - Numlock: 45=47 down, not recognized
+  - Mic toggle: _Q6A
+  - Brightness up: _Q14
+  - Brightness down: _Q15
+  - Mirror screen: _Q16
+  - Toggle wifi: _Q64
+  - Settings: _Q66
+  - Toggle bluetooth: _Q60
+  - Keyboard: _Q61
+  - Favorite: _Q62
 - Setup USB C hotplug
 - Wrong battery percentage reported by both HWMonitor and system battery (it seems HWMonitor is considering the battery design capacity instead of the battery max capacity)
 - Tune trackpoint
