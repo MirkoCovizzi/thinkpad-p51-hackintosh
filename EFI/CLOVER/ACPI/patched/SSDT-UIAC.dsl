@@ -23,6 +23,11 @@ DefinitionBlock ("", "SSDT", 2, "hack", "UIAC-ALL", 0)
                         "UsbConnector", 3,
                         "port", Buffer() { 2, 0, 0, 0 },
                     },
+                    "HS04", Package() // Thinkpad dock
+                    {
+                        "UsbConnector", 3,
+                        "port", Buffer() { 4, 0, 0, 0 },
+                    },
                     "HS05", Package() // Second USB right
                     {
                         "UsbConnector", 3,
@@ -52,6 +57,11 @@ DefinitionBlock ("", "SSDT", 2, "hack", "UIAC-ALL", 0)
                     {
                         "UsbConnector", 3,
                         "port", Buffer() { 18, 0, 0, 0 },
+                    },
+                    "SS04", Package()
+                    {
+                        "UsbConnector", 3,
+                        "port", Buffer() { 20, 0, 0, 0 },
                     },
                     "SS05", Package()
                     {
