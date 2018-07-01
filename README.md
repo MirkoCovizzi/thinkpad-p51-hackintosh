@@ -8,7 +8,7 @@ Feature set source: http://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad%20
 | ------------- | ------------- | ------------- | ------------- | 
 | CPU | i7-7700HQ | FULL | Native power management works correctly, as per: https://www.tonymacx86.com/threads/guide-native-power-management-for-laptops.175801/
 | GPU | HD630 | FULL | Same as above. Full hardware acceleration.					
-| | NVIDIA M1200 | NO:DISABLED | Disabled as per: https://www.tonymacx86.com/threads/guide-disabling-discrete-graphics-in-dual-gpu-laptops.163772/ |
+| | NVIDIA M1200 | NO:DISABLED | Disabled as per: https://www.tonymacx86.com/threads/guide-disabling-discrete-graphics-in-dual-gpu-laptops.163772/ UPDATE: it seems it's possible to have both HD630 and Nvidia GPU running on macOS https://www.tonymacx86.com/threads/several-issues-getting-high-sierra-working-laptop.253386/#post-1759621 because of the particular configuration of this device, since it's possible form bios to run discrete graphics only and also because external monitors run through the Nvidia GPU and never through intel integrated GPU. |
 | MEMORY | 1x16GB | FULL | |
 | DISPLAY | 4K | FULL | |
 | STORAGE | Samsung NVMe 256GB | FULL | |
