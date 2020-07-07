@@ -1,3 +1,9 @@
+# Thinpad P51 Catalina Opencore
+Updated to use OpenCore and use ACPI patch methods, rather than replacing the full DSDT / SSDTs.
+
+
+
+
 # Thinkpad P51 High Sierra
 
 Feature set source: http://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad%20P51/ThinkPad_P51_Platform_Specifications.pdf
